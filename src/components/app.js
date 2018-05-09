@@ -5,9 +5,8 @@ import Route from 'preact-router';
 // import required Components from 'components/'
 import Iphone from './iphone';
 import header from './header';
-import SettingsPage from './settingsPage';
-import Attraction from './Attraction';
-import Transportation from './transportation';
+
+
 export default class App extends Component {
 //var App = React.createClass({
 
@@ -29,9 +28,7 @@ export default class App extends Component {
 				<div id="app">
 					<Router onChange={this.handleRoute}>
 					<Iphone path ="/" />
-					<SettingsPage path = "/settingsPage" />
-					<Attraction path ="/attractions/"  />
-					<Transportation path ="/transportation"/>
+
 					</Router>
 				</div>
 			);
